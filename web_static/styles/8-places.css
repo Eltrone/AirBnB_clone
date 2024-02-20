@@ -68,14 +68,12 @@ article h2 {
 }
 .max_guest {
     background-image: url(../images/icon_group.png);
-
 }
 .number_rooms {
     background-image: url(../images/icon_bed.png);
 }
 .number_bathrooms {
-    background-image: url(../images/icon_bath.png);
-    
+    background-image: url(../images/icon_bath.png); 
 }
 
 .user {
