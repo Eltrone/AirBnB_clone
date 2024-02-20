@@ -7,7 +7,7 @@ header {
     align-items: center;
     padding-left: 20px;
 }
-/* You'll need to replace 'your-logo.png' with the actual logo file name */
+
 header:before {
     content: url('../images/your-logo.png');
     margin-right: 20px;

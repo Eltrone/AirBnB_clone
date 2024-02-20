@@ -6,7 +6,7 @@
     border: 1px solid #DDDDDD; /* Assurez-vous que cette bordure est définie */
     border-radius: 4px; /* Ajout de l'arrondi de bordure si nécessaire */
     box-sizing: border-box;
-    height: 70px; /* Hauteur explicite si nécessaire pour maintenir l'encadrement */
+    height: 70px; /* Hauteur nécessaire pour maintenir l'encadrement */
 }
 
 
