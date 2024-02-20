@@ -1,0 +1,14 @@
+header {
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+/* You'll need to replace 'your-logo.png' with the actual logo file name */
+header:before {
+    content: url('../images/your-logo.png');
+    margin-right: 20px;
+}

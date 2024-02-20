@@ -1,0 +1,51 @@
+.filters {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    border: 1px solid #DDDDDD; /* Assurez-vous que cette bordure est définie */
+    border-radius: 4px; /* Ajout de l'arrondi de bordure si nécessaire */
+    box-sizing: border-box;
+    height: 70px; /* Hauteur explicite si nécessaire pour maintenir l'encadrement */
+}
+
+
+.locations, .amenities {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.locations {
+    border-right: 1px solid #DDDDDD;
+}
+
+.locations h3, .amenities h3 {
+    font-weight: 600;
+    margin-bottom: 5px; /* Réduire la marge en bas du h3 pour diminuer l'espace */
+}
+
+.locations h4, .amenities h4 {
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 0; /* Assurez-vous que la marge en haut du h4 est minimale ou nulle */
+}
+
+
+button {
+    font-size: 18px;
+    background-color: #FF5A5F;
+    color: #FFFFFF;
+    height: 48px;
+    width: auto; /* Adjusted to auto to fit the text */
+    padding: 0 20px; /* Added padding for the button */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+button:hover {
+    opacity: 0.9;
+}

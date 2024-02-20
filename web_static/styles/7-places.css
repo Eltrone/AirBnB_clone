@@ -1,0 +1,44 @@
+.places {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.places-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+article {
+    box-sizing: border-box;
+    width: calc(50% - 10px); /* Calcule la largeur pour inclure l'espacement */
+    margin-bottom: 20px; /* Espace entre les articles */
+    padding: 5px;
+    border: 1px solid #FF5A5F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.places-title {
+    text-align: left,
+}
+
+.places-row article:last-child {
+    margin-right: 0; /* S'assure que le dernier article de la ligne n'a pas de marge à droite */
+}
+
+.places-row article:last-child {
+    margin-right: 0; /* Le dernier article de la ligne ne doit pas avoir de marge à droite */
+}
+
+/* Pour le troisième article */
+.places article:nth-child(3) {
+    width: 50%; /* Ajuste la largeur pour correspondre à la somme des deux premiers articles */
+    margin-right: 0; /* Assurez-vous qu'il n'y a pas de marge à droite */
+    margin-bottom: 20px; /* Espace en dessous du troisième article */
+}
